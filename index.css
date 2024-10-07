@@ -1,0 +1,59 @@
+
+:root{
+    --color1 : #F0A8D0;
+    --color2 : #092635;
+    --color3 : #1B4242;
+    --color4 : #FFEBD4;
+
+    --col1 : #F1E5D1;
+    --col2 : #DBB5B5;
+    --col3 : #C39898;
+    --col4 : #6c4444;
+
+}
+*{
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0px;
+    background-color: var(  --color3);
+    min-height: 100%;
+}
+
+.header{
+    background-color: var( --color2);
+}
+
+h1{
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.git-commands {
+    color: white;
+    font-size: 2em;
+    margin: 24px;
+    display: grid;
+    gap: 16px;
+    grid-template: repeat(6, 1fr) / 1fr 3fr;
+}
+
+.git-commands__command{
+     
+padding: 16px;
+border-radius: 20px;
+ 
+background-color: #6c4444;
+}
+
+.git-commands__effect{
+   
+    padding: 16px;
+    border-radius: 20px;
+    background-color: #DBB5B5;
+    font-size: 2rem;
+    color: #092635;
+}
